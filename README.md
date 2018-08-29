@@ -1,18 +1,12 @@
+# 사기 궁합앱
+다 낚을거야!
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
-
-
-Hi there! Welcome to Cloud9 IDE!
-
-To get you started, create some files, play with the terminal,
-or visit http://docs.c9.io for our documentation.
-If you want, you can also go watch some training videos at
-http://www.youtube.com/user/c9ide.
-
-Happy coding!
-The Cloud9 IDE team
+## 1. App의 구조
+1. '"/"' : 메인페이지
+    - 이름을 입력 받는다.
+    - 
+2. '/result' : 결과페이지
+    - 가짜 궁합을 보여준다.
+    - csv에 입력값을 저장한다.
+3. '/admin' : 어드민페이지
+    - 저장된 이름들을 csv에서 불러와 출력한다.
